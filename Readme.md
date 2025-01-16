@@ -1,4 +1,4 @@
-We include week-1 plan in this.
+Week-1 Training plan:-
 
 Windows PowerShell
 Introduction To PowerShell
