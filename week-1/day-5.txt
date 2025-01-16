@@ -1,0 +1,22 @@
+If there is a code in main branch and we want a new feature for that we can create a new branch by following command :-
+git checkout -b feature-new(feature-new is a branch name)
+After this we can make changes and add something specific to this branch after this we can check our git status by the following command-
+git status
+It will show the status of branch that is untracked when we create a new branch from main a new file is created for git which is untracked it mean it need to add in the following local repository so by the following command we can add a new branch into the repository-
+git add branchname 
+if there are multiple branches then we can write -
+git add branchname1 branchname2 
+and if all the branches are at the same and changes happened in all the branches, and we want to add all the branches into the repo then we can directly write -
+git add .
+after the add we need to make commit (snapshot of changes which get store in history of repo) for this commit command is -
+git commit -m "message"
+-m means modified and in message we need to give a message what change we made in the branch or in particular line .
+
+After the staging area(add and commit) we need to push the changes in the remote repository so the command is -
+git push -u origin main
+origin is the repository name and main is the branch from which we need to push our code from local to remote we can write any branch name.
+
+ example- git push -u origin feature-new 
+it created a new branch on remote repo named feature-new and all the changes push from local feature-new to remote feature-new and -u is used so that you don't need to type again and again origin main if we push code from main to main we can just write -
+git push (it push the change from main to main)
+after that we need to request for a PR and the mentor or senior developer review the change before merging into main branch after reviewing it get merged into main branch and all the code will be available into github account.
