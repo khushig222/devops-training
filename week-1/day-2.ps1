@@ -1,3 +1,5 @@
+#Powershell script to install and import powershell modules and find the Commands in a Module.
+
 # Function to install and import a PowerShell module
 function Install-Import-Module {
     param (
