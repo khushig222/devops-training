@@ -33,4 +33,3 @@ https://intimetecvisionsoft-my.sharepoint.com/:p:/g/personal/khushi_g_intimetec_
 This is the link of my gitflow strategies.
 https://intimetecvisionsoft-my.sharepoint.com/:p:/g/personal/khushi_g_intimetec_com/EVAvRrxhaBpFlqVDz6Eu3swBLg2Y6HxM1e9RL9ewcupuEA?email=aditi.r.sharma%40intimetec.com&e=8mSNX7
 
-This is the link of my github repo where all the powershell scripts are kept.
