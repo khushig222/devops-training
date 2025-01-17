@@ -1,3 +1,6 @@
+#Write git commands to add all files in staging area, commit to move changes from the staging area and push those changes to the main repository.
+
+
 If there is a code in main branch and we want a new feature for that we can create a new branch by following command :-
 git checkout -b feature-new(feature-new is a branch name)
 After this we can make changes and add something specific to this branch after this we can check our git status by the following command-
