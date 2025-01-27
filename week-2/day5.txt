@@ -1,0 +1,18 @@
+#Write the IP address 135.1.1.25 mask 255.255. 248.0 in CIDR notation
+
+convert the subnet mask into number of continue number of one's as we found the value of n by checking the n (which is continues 1)
+
+255- 11111111
+
+255- 11111111
+
+248- 11111000
+
+0- 00000000
+
+as we find out there are 21 continue's 1 so the value of n become 21 
+
+ip address in cidr become :- 
+
+135.1.1.25/21
+
