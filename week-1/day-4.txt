@@ -1,0 +1,5 @@
+#Setup git into Visual studio code and push sample code to the repository using VS Code.
+#Create a document including the steps to work with GIT using VS Code UI
+
+This is my day-4 assingment link.
+https://intimetecvisionsoft-my.sharepoint.com/:p:/g/personal/khushi_g_intimetec_com/ES7kla8QDrlKspof9w24GE0BBLtPWLr_UL1l81HeiW2g5Q?email=aditi.r.sharma%40intimetec.com&e=FdHy1x
