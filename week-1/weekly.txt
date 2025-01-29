@@ -1,0 +1,35 @@
+/*
+Windows Powershell: Weekly Assignment
+
+Script creation:
+Palindrome
+Armstrong
+Leap Year 
+Reverse string
+Count the occurrence of characters in a string
+
+PowerShell script for remote connection and copy a demo file from local to remote desktop.
+Create a document to explain REST APIs and commands used to work with them.
+
+GIT: Weekly Assignment
+
+Hands-on over GIT commands
+Create a document explaining different GIT workflow strategies
+Merge conflicts resolution
+Create a Word document for GIT commands used 
+*/
+
+
+
+
+
+
+This is the link of rest-api ppt.
+https://intimetecvisionsoft-my.sharepoint.com/:p:/g/personal/khushi_g_intimetec_com/ESNR61j370NKsE3XLFYy1zwBMOys6PyGap0ZFyxmFHu70Q?email=aditi.r.sharma%40intimetec.com&e=vTpUAf
+
+This is the link of git ppt.
+https://intimetecvisionsoft-my.sharepoint.com/:p:/g/personal/khushi_g_intimetec_com/ES7kla8QDrlKspof9w24GE0BBLtPWLr_UL1l81HeiW2g5Q?email=aditi.r.sharma%40intimetec.com&e=n3asYf
+
+This is the link of my gitflow strategies.
+https://intimetecvisionsoft-my.sharepoint.com/:p:/g/personal/khushi_g_intimetec_com/EVAvRrxhaBpFlqVDz6Eu3swBLg2Y6HxM1e9RL9ewcupuEA?email=aditi.r.sharma%40intimetec.com&e=8mSNX7
+
