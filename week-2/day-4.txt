@@ -1,0 +1,74 @@
+#Subnet the Class C IP Address 205.11.2.0 so that you have 30 subnets. What is the subnet mask for the maximum number of hosts? How many hosts can each subnet have? What is the IP address of host 3 on subnet 2? 
+
+
+Subnet the Class C IP Address 205.11.2.0 so that you have 30 subnets.
+
+The IP Address we have is 205.11.2.0 to create its subnet we can create its subnet by fixing some number of bits.
+
+For creating 30 subnets we can either choose 32 or 16, to create in between we have to create less or more in this it's better to create more so we are fixing 5 bits in the host id .
+
+2^5 =32 which is greater than 30 
+
+00000000 bold zeroes are the fix bits by changing the 0 or 1 on the fix bit we can create subnet.
+if we fix one bit in zeroes is 00000000 its 0 
+
+Subnet 1:-
+
+205.11.2.0 to 205.11.2.7 (range)
+
+205.11.2.0 (network id)
+
+205.11.2.7(broadcast channel id)
+
+and 00001000 its 8
+
+Subnet 2:-
+
+205.11.2.8 to 205.11.2.15 (range)
+205.11.2.8 (network id)
+
+205.11.2.15(broadcast channel id)
+
+here we fix two bits 00010000 its 16
+
+Subnet 3:-
+
+205.11.2.16 to 205.11.2.23 (range)
+
+205.11.2.16 (network id)
+
+205.11.2.23(broadcast channel id)
+
+here we fix two bits 00011000 its 24
+
+Subnet 4:-
+
+205.11.2.24 to 205.11.2.31 (range)
+
+205.11.2.24 (network id)
+
+205.11.2.31(broadcast channel id)
+
+and so on....
+in this way we created all 30 subnet by changing the fixing bits in host id.
+
+
+What is the subnet mask for the maximum number of hosts?
+
+For checking subnet mask there are two ways if we check subnet mask before creating 30 subnet is -
+255.255.255.0 (default subnet mask for class c)
+255.255.248.0(after creating 30 subnet )
+subnet mask can be calculated by counting number of 1 present 
+
+ How many hosts can each subnet have? 
+host can be calculated by checking the number of bits available in host id there are only 3 bit left so number of host for each subnet is -
+2^n - 2
+2^3 - 2 = 6 (2 are fixed for network and broadcast channel id)
+
+What is the IP address of host 3 on subnet 2? 
+205.11.2.8 to 205.11.2.15 (range)
+we can't give 205.11.2.8 for host because it's a network id so 3rd host is -
+205.11.2.9 - 1st host
+205.11.2.10 - 2nd host
+205.11.2.11 - 3rd host
+ 
